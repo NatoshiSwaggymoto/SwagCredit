@@ -27,13 +27,13 @@ cd SwagCredit
 
 make
 
-The binaries are called bitcoind and bitcoin-cli and are located in the src directory.
+The binaries are called swagcreditd and swagcredit-cli and are located in the src directory.
 
 To connect to the network, use the following command:
 
-bitcoin-cli addnode 85.214.234.228:7333 add
+swagcredit-cli addnode 85.214.234.228:7333 add
 
-To mine with yor CPU, download the cpuminer:
+To mine with your CPU, download the cpuminer:
 
 cd ~
 

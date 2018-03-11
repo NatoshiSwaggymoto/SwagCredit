@@ -1,13 +1,15 @@
 *.tar.gz
 
 *.exe
-src/bitcoin
-src/bitcoind
-src/bitcoin-cli
-src/bitcoin-tx
-src/test/test_bitcoin
-src/test/test_bitcoin_fuzzy
-src/qt/test/test_bitcoin-qt
+src/swagcredit
+src/swagcreditd
+src/swagcredit-cli
+src/swagcredit-tx
+src/test/test_swagcredit
+src/test/test_swagcredit_fuzzy
+src/qt/swagcredit-qt
+src/qt/test/test_swagcredit-qt
+src/bench/bench_swagcredit
 
 # autoreconf
 Makefile.in
